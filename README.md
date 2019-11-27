@@ -1,5 +1,7 @@
 # RCRNet-Pytorch
 
+![pseudo_label_generator](pseudo_label_generator.png)
+
 ## Introduction
 
 This repository is the PyTorch implementation of "Semi-Supervised Video Salient Object Detection Using Pseudo-Labels", International Conference on Computer Vision(ICCV), 2019, by Pengxiang Yan, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang Lin.
@@ -35,10 +37,10 @@ If you want to compare with our method:
 $ CUDA_VISIBLE_DEVICES=0 python inference.py --data data/datasets --dataset VOS --split test
 
 # DAVIS
-$ CUDA_VISIBLE_DEVICES=0 python inference.py --data /data/datasets --dataset DAVIS --split val
+$ CUDA_VISIBLE_DEVICES=0 python inference.py --data data/datasets --dataset DAVIS --split val
 
 # FBMS
-$ CUDA_VISIBLE_DEVICES=0 python inference.py --data /data/datasets --dataset FBMS --split test
+$ CUDA_VISIBLE_DEVICES=0 python inference.py --data data/datasets --dataset FBMS --split test
 ```
 
 Then, you can evaluate the saliency maps using your own evaluation code.
