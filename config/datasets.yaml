@@ -1,0 +1,149 @@
+# Video Saliency Dataset Config files
+#
+# Author:   Pengxiang Yan
+# Email:    yanpx (at) mail2.sysu.edu.cn
+
+# MSRA-B Dataset
+# url: https://mmcheng.net/msra10k/
+MSRA-B:
+    image_dir: imgs
+    label_dir: gt
+    split_dir: ImageSets
+    image_ext: .jpg
+    label_ext: .png
+# HKU-IS Dataset
+# url: https://i.cs.hku.hk/~gbli/deep_saliency.html
+
+HKU-IS:
+    image_dir: imgs
+    label_dir: gt
+    split_dir: ImageSets
+    image_ext: .png
+    label_ext: .png
+
+# DAVIS 2016 Dataset: Densely Annotated VIdeo Segmentation
+# url: https://davischallenge.org/
+DAVIS2016:
+    image_dir: JPEGImages/480p
+    label_dir: Annotations/480p
+    image_ext: .jpg
+    label_ext: .png
+    default_label_interval: 1 # every "default_label_interval" image gives a label
+    video_split:
+        train: ['bear', 'bmx-bumps', 'boat', 'breakdance-flare',
+                    'bus', 'car-turn', 'dance-jump', 'dog-agility',
+                    'drift-turn', 'elephant', 'flamingo', 'hike',
+                    'hockey', 'horsejump-low', 'kite-walk', 'lucia',
+                    'mallard-fly', 'motocross-bumps', 'motorbike',
+                    'paragliding', 'rhino', 'rollerblade', 'scooter-gray',
+                    'soccerball', 'stroller', 'surf', 'swing', 'tennis',
+                    'train']
+        val: ['blackswan', 'bmx-trees', 'breakdance', 'camel',
+                    'car-roundabout', 'car-shadow', 'cows', 'dance-twirl',
+                    'dog', 'drift-chicane', 'drift-straight', 'goat',
+                    'horsejump-high', 'kite-surf', 'libby', 'motocross-jump',
+                    'paragliding-launch', 'parkour', 'scooter-black',
+                    'soapbox']
+
+# FBMS: Freiburg-Berkeley Motion Segmentation Dataset
+# url: https://lmb.informatik.uni-freiburg.de/resources/datasets/
+FBMS:
+    image_dir: JPEGImages
+    label_dir: Annotations
+    image_ext: .jpg
+    label_ext: .png
+    default_label_interval: 1
+    video_split:
+        train: ['bear01', 'bear02', 'cars2', 'cars3',
+                    'cars6', 'cars7', 'cars8', 'cars9',
+                    'cats02', 'cats04' ,'cats05', 'cats07',
+                    'ducks01', 'horses01', 'horses03', 'horses06',
+                    'lion02', 'marple1', 'marple10', 'marple11',
+                    'marple13', 'marple3', 'marple5', 'marple8',
+                    'meerkats01', 'people04', 'people05', 'rabbits01',
+                    'rabbits05']
+        test: ['camel01', 'cars1', 'cars10', 'cars4',
+                    'cars5', 'cats01', 'cats03', 'cats06',
+                    'dogs01', 'dogs02', 'farm01', 'giraffes01',
+                    'goats01', 'horses02', 'horses04', 'horses05',
+                    'lion01', 'marple12', 'marple2', 'marple4',
+                    'marple6', 'marple7', 'marple9', 'people03',
+                    'people1', 'people2', 'rabbits02', 'rabbits03',
+                    'rabbits04', 'tennis']
+
+# SegTrack v2 is a video segmentation dataset with full pixel-level annotations
+#   on multiple objects at each frame within each video.
+# url: http://web.engr.oregonstate.edu/~lif/SegTrack2/dataset.html
+SegTrackv2:
+    image_dir: JPEGImages
+    label_dir: .png
+    label_dir: .png
+    default_label_interval: 1
+    video_split:
+        trainval: ['bird_of_paradise', 'birdfall', 'frog',
+                    'monkey', 'parachute', 'soldier', 'worm']
+
+# TIP18: A Benchmark Dataset and Saliency-Guided Stacked Autoencoders for Video-Based Salient Object Detection
+# url: http://cvteam.net/projects/TIP18-VOS/VOS.html
+VOS:
+    image_dir: JPEGImages
+    label_dir: Annotations
+    image_ext: .jpg
+    label_ext: .png
+    default_label_interval: 15
+    video_split:
+        train: ['1', '102', '103', '104', '107', '11', '111', '112', '114', '115',
+                '117', '118', '119', '12', '123', '124', '125', '126', '127', '130',
+                '131', '143', '145', '146', '147', '15', '156', '164', '17', '171',
+                '176', '192', '197', '198', '199', '2', '20', '200', '201', '202',
+                '205', '206', '207', '212', '215', '216', '217', '22', '220', '221',
+                '222', '225', '226', '229', '23', '230', '231', '233', '235', '236',
+                '25', '250', '251', '252', '255', '256', '257', '258', '259', '26',
+                '261', '262', '263', '265', '267', '268', '27', '270', '271', '272',
+                '273', '275', '276', '30', '32', '33', '34', '35', '38', '4', '40',
+                '44', '45', '46', '48', '50', '51', '52', '53', '55', '6', '61', '64',
+                '66', '67', '69', '70', '71', '73', '78', '80', '81', '83', '87', '88',
+                '9', '90', '96', '99']
+        val: ['10', '101', '105', '109', '113', '120', '13', '133', '14', '148', '158',
+                '18', '180', '196', '203', '204', '208', '209', '213', '219', '223', '228',
+                '24','260', '269', '28', '31', '37', '39', '5', '57', '62', '7', '72', '77',
+                '84', '92','94', '95', '97']
+        test: ['100', '106', '108', '110', '121', '132', '134', '16', '172', '189', '19',
+                '194', '195', '21', '210', '211', '214', '224', '227', '232', '254', '264',
+                '266', '274', '29', '3', '36', '42', '43', '47', '49', '58', '65', '68', '74',
+                '76', '8', '85', '93', '98']
+        easy: ['1', '10', '101', '11', '12', '13', '130', '131', '132', '133', '134',
+                '14', '143', '15', '16', '17', '18', '19', '192', '194', '195', '196', '197',
+                '198', '199', '2', '20', '200', '201', '202', '203', '204', '205', '206', '207',
+                '208', '209', '21', '210', '211', '22', '23', '233', '24', '25', '254', '255',
+                '256', '257', '258', '259', '26', '260', '261', '262', '263', '264', '265', '266',
+                '267', '268', '269', '27', '270', '271', '272', '273', '274', '275', '276', '28',
+                '29', '3', '30', '31', '32', '33', '34', '4', '42', '5', '50', '51', '6', '68',
+                '7', '76', '78', '8', '88', '9', '90', '92', '94', '96', '98']
+        normal: ['100', '102', '103', '104', '105', '106', '107', '108', '109', '110', '111',
+                '112', '113', '114', '115', '117', '118', '119', '120', '121', '123', '124', '125',
+                '126', '127', '145', '146', '147', '148', '156', '158', '164', '171', '172', '176',
+                '180', '189', '212', '213', '214', '215', '216', '217', '219', '220', '221', '222',
+                '223', '224', '225', '226', '227', '228', '229', '230', '231', '232', '235', '236',
+                '250', '251', '252', '35', '36', '37', '38', '39', '40', '43', '44', '45', '46', '47',
+                '48', '49', '52', '53', '55', '57', '58', '61', '62', '64', '65', '66', '67', '69',
+                '70', '71', '72', '73', '74', '77', '80', '81', '83', '84', '85', '87', '93', '95',
+                '97', '99']
+        easy-train: ['206', '90', '268', '30', '26', '201', '131', '271', '255', '276', '270', '15', '25',
+                '1', '50', '20', '51', '88', '96', '130', '197', '27', '4', '205', '199', '78', '261',
+                '2', '207', '198', '272', '192', '202', '258', '262', '32', '12', '6', '265', '263',
+                '200', '11', '143', '267', '9', '22', '259', '275', '33', '17', '257', '34', '23', '233',
+                '273', '256']
+        easy-val: ['31', '94', '204', '92', '133', '196', '203', '209', '208', '5', '101', '24', '260',
+                '18', '13', '269', '28', '10', '7', '14']
+        easy-test: ['29', '42', '194', '211', '254', '21', '264', '274', '19', '134', '76', '8', '98',
+                '210', '266', '16', '68', '132', '3', '195']
+        normal-train: ['115', '35', '127', '217', '87', '55', '147', '126', '125', '114', '123', '111',
+                '235', '250', '103', '71', '81', '212', '231', '38', '252', '222', '69', '145', '176',
+                '221', '225', '44', '45', '171', '124', '118', '229', '66', '112', '156', '220', '64',
+                '216', '107', '80', '73', '48', '251', '236', '61', '102', '40', '83', '46', '67', '99',
+                '164', '119', '53', '146', '226', '215', '230', '117', '52', '104', '70']
+        normal-val: ['148', '57', '77', '158', '228', '37', '39', '62', '105', '180', '97', '109', '219',
+                '72', '84', '113', '120', '213', '95', '223']
+        normal-test: ['189', '85', '108', '110', '224', '121', '172', '43', '232', '36', '93', '47', '74',
+                '227', '214', '49', '65', '106', '100', '58']
