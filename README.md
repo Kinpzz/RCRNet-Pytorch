@@ -1,6 +1,6 @@
 # RCRNet-Pytorch
 
-![pseudo_label_generator](pseudo_label_generator.png)
+![pseudo_label_generator](docs/pseudo_label_generator.png)
 
 ## Introduction
 
