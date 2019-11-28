@@ -2,7 +2,7 @@
 
 Deep learning-based video salient object detection has recently achieved great success with its performance significantly outperforming any other unsupervised methods. However, existing data-driven approaches heavily rely on a large quantity of pixel-wise annotated video frames to deliver such promising results. In this paper, we address the semi-supervised video salient object detection task using pseudo-labels. Specifically, we present an effective video saliency detector that consists of a spatial refinement network and a spatiotemporal module. Based on the same refinement network and motion information in terms of optical flow, we further propose a novel method for generating pixel-level pseudo-labels from sparsely annotated frames. By utilizing the generated pseudo-labels together with a part of manual annotations, our video saliency detector learns spatial and temporal cues for both contrast inference and coherence enhancement, thus producing accurate saliency maps. Experimental results demonstrate that our proposed semi-supervised method even greatly outperforms all the state-of-the-art fully supervised methods across three public benchmarks of VOS, DAVIS, and FBMS.
 
-<img src="motorcross-jump.gif" align="middle">
+<center><img src="motorcross-jump.gif"></center>
 
 ## Paper
 
@@ -22,7 +22,7 @@ Pengxiang Yan, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang L
 
 - As shown in Figure. 1, our model can produce reasonable and consistent pseudo-labels, which can even improve the boundary details (Example a) and overcome the labeling ambiguity between frames (Example b).
 
-<img src="pseudo_label_example.png" width="500px" align="middle">
+<center><img src="pseudo_label_example.png" width="500px"></center>
 
 - Experimental results show that utilizing the joint supervision of pseudo-labels and sparse annotations can further improve the model performance. 
 
