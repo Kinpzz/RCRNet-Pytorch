@@ -1,5 +1,6 @@
 # RCRNet-Pytorch
-## Introduction
+<img align="right" src="docs/motorcross-jump.gif" width="200px">
+
 This repository contains the PyTorch implementation for
 
 **Semi-Supervised Video Salient Object Detection Using Pseudo-Labels** <br />

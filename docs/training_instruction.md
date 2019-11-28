@@ -5,7 +5,7 @@ If you want to train the proposed RCRNet from scratch, please refer to our paper
 
 The proposed RCRNet is built upon an ResNet-50 pretrained on ImageNet.
 
-<img src="static_model.png" style="zoom:80%" />
+<img align="center" src="static_model.png" style="zoom:65%" />
 
 **First**, we use two image saliency datasets, i.e., [MSRA-B](https://mmcheng.net/msra10k/) and [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html), to pretrain the RCRNet (Figure 2), which contains a spatial feature extractor and a pixel-wise classifer. Here, we provide the weights of RCRNet pretrained on image saliency datasets at at [Google Drive](https://drive.google.com/open?id=1S7nao9WEhIiTmTC-E0nujMxm5Emypti9) or [Baidu Pan](https://pan.baidu.com/s/196cUbTInWJKd8FmiP9Jv_A) (passwd: j839). For simplicity, we do not provide the training code of this step. If you want to train this step you can implement your own training code.
 
