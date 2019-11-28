@@ -1,0 +1,7 @@
+@inproceedings{yan2019semi,
+  title={Semi-Supervised Video Salient Object Detection Using Pseudo-Labels},
+  author={Yan, Pengxiang and Li, Guanbin and Xie, Yuan and Li, Zhen and Wang, Chuan and Chen, Tianshui and Lin, Liang},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={7284--7293},
+  year={2019}
+}
