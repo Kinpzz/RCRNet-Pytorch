@@ -3,10 +3,11 @@
 ![pseudo_label_generator](docs/pseudo_label_generator.png)
 
 ## Introduction
+This repository contains the PyTorch implementation for
 
-This repository is the PyTorch implementation of "Semi-Supervised Video Salient Object Detection Using Pseudo-Labels", International Conference on Computer Vision(ICCV), 2019, by Pengxiang Yan, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang Lin.
-
-Paper links: [[arxiv](https://arxiv.org/abs/1908.04051)] or [[CVF](http://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Semi-Supervised_Video_Salient_Object_Detection_Using_Pseudo-Labels_ICCV_2019_paper.html)]
+**Semi-Supervised Video Salient Object Detection Using Pseudo-Labels** <br />
+Pengxiang Yan, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang Lin <br />
+**ICCV 2019** | **[Arxiv](https://arxiv.org/abs/1908.04051)** | [CVF-Open-Access](http://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Semi-Supervised_Video_Salient_Object_Detection_Using_Pseudo-Labels_ICCV_2019_paper.html) <br />
 
 ## Usage
 
