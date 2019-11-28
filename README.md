@@ -1,7 +1,5 @@
 # RCRNet-Pytorch
 ## Introduction
-<img align="right" src="docs/pseudo_label_generator.png" width="220px" />
-
 This repository contains the PyTorch implementation for
 
 **Semi-Supervised Video Salient Object Detection Using Pseudo-Labels** <br />
