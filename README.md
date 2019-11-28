@@ -1,5 +1,5 @@
 # RCRNet-Pytorch
-<img align="right" src="docs/motorcross-jump.gif" width="200px">
+<img align="right" src="docs/motorcross-jump.gif" width="250px">
 
 This repository contains the PyTorch implementation for
 
