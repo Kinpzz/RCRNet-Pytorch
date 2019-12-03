@@ -53,7 +53,7 @@ Pengxiang Yan, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang L
 
 ## Q&A
 
-Q1: What is the difference between the semi-supervsied strategies mentioned in semi-supervsied video salient object detection (VSOD) and semi-supevised video object segmentation (VOS)?
+Q1: What is the difference between the semi-supervised strategies mentioned in semi-supervised video salient object detection (VSOD) and semi-supevised video object segmentation (VOS)?
 
 A1: VOS can be categories into **semi-supervised** and **unsupervised** methods when referring to different **testing** schemes. Semi-supervised VOS will provide the annotation of the first frame when testing. Video salient object detection (VSOD) is more similar to unsupervised VOS as both of them do not resort to labeled frames during testing. Here, our proposed method use only a part of labeled frames for **training** and that makes we call it a semi-supervised VSOD method.
 
@@ -63,7 +63,7 @@ A2: As far as we know, when referring to the training scheme, we are the ﬁrst 
 
 Q3: Is PDB fully-supervised or unsupervised?
 
-A3: PDB is fully-supervised during training but unsupervised during testing. Specifially, PDB is an algorithm for both video salient object detection and unsupervised video object segmentation and it is trained under fully supervision.
+A3: PDB is fully-supervised during training but unsupervised during testing. Specifically, PDB is an algorithm for both video salient object detection and unsupervised video object segmentation and it is trained under fully supervision.
 
 ## Contact
 

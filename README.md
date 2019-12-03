@@ -5,7 +5,7 @@ This repository contains the PyTorch implementation for
 
 **Semi-Supervised Video Salient Object Detection Using Pseudo-Labels** <br />
 Pengxiang Yan, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang Lin <br />
-**ICCV 2019** | [[Project Page](https://blog.kinpzz.com/RCRNet-Pytorch)] | [[Arxiv](https://arxiv.org/abs/1908.04051)] | [[CVF-Open-Access](http://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Semi-Supervised_Video_Salient_Object_Detection_Using_Pseudo-Labels_ICCV_2019_paper.html)] <br />
+**ICCV 2019** | [[Project Page](https://kinpzz.com/publication/iccv19_semi_vsod/)] | [[Arxiv](https://arxiv.org/abs/1908.04051)] | [[CVF-Open-Access](http://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Semi-Supervised_Video_Salient_Object_Detection_Using_Pseudo-Labels_ICCV_2019_paper.html)] <br />
 
 ## Usage
 
