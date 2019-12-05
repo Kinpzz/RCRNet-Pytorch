@@ -53,7 +53,7 @@ $ CUDA_VISIBLE_DEVICES=0 python train.py \
 #### (Optional) Training FGPLG
 You can also train the FGPLG using other propotions of ground truth images by
 
-(Note that need to download the pretrained model of [Flownet2](https://github.com/NVIDIA/flownet2-pytorch#converted-caffe-pre-trained-models))
+(Note that need to download the pretrained model of [Flownet2](https://github.com/NVIDIA/flownet2-pytorch#converted-caffe-pre-trained-models)[620MB])
 ```
 # set l
 $ CUDA_VISIBLE_DEVICES=0 python train_fgplg.py \
